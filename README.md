@@ -6,7 +6,7 @@ A clean and responsive login page built with **HTML, CSS, and Flexbox/Grid**. De
 
 ## 📸 Preview
 
-![Live Demo](path-to-your-screenshot.png)
+![Live Demo](https://login-page-demo.kyleweber.dev/)
 
 ---
 
