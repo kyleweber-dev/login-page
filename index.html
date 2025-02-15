@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In | Weber Designs</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/public/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="login-form-left">
+      <img src="/public/hero.webp" alt="cool picture" />
+    </div>
+    <div class="login-form-right">
+      <header id="header">
+        <img src="/public/Login-Logo.png" alt="Weber Desings Logo" />
+        <h1>Welcome Back!</h1>
+        <p>Please enter your details</p>
+      </header>
+      <main id="main">
+        <form action="onSubmit" method="post">
+          <fieldset>
+            <legend><p>Email</p></legend>
+            <div class="input-wrapper">
+              <input
+                class="email-input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="johndoe@email.com"
+                autocomplete="email"
+                required
+              />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend><p>Password</p></legend>
+            <div class="input-wrapper">
+              <input
+                class="password-input"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="************"
+                autocomplete="new-password"
+                required
+              />
+            </div>
+          </fieldset>
+          <div class="checkbox-wrapper">
+            <div class="checkbox-left">
+              <input
+                class="checkbox-input"
+                type="checkbox"
+                name="30-day"
+                id="30-day"
+              />
+              <p>Stay logged in?</p>
+            </div>
+            <div class="checkbox-right">
+              <a href="#"><p>Forgot Password?</p></a>
+            </div>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <button class="google-btn" type="submit">
+          <img src="/public/google.png" alt="google icon" /> Login with google
+        </button>
+      </main>
+      <footer id="footer">
+        <a class="anchor-bottom" href="#">New here? Sign up here!</a>
+      </footer>
+    </div>
+  </body>
+</html>
